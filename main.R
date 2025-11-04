@@ -113,7 +113,7 @@ for (i in f) {
                strsplit(i[1], "_")[[1]][2],
                strsplit(i[1], "_")[[1]][3], sep = "_")
   
-  save(obj, file = paste0("teste", name, ".RDS"))
+  save(obj, file = paste0("teste", name, ".RData"))
 }
 
 # Infer all cell-cell communications
